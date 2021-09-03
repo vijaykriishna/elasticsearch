@@ -24,19 +24,19 @@ setup:
   - do:
       index:
         index: test
-        id: 1
+        id: "1"
         body: { "double" : 42 }
 
   - do:
       index:
         index: test
-        id: 2
+        id: "2"
         body: { "double" : 100 }
 
   - do:
       index:
         index: test
-        id: 3
+        id: "3"
         body: { "double" : 50 }
 
   - do:
@@ -113,19 +113,19 @@ setup:
   - do:
       index:
         index: test
-        id: 1
+        id: "1"
         body: { "ip" : "::1" }
 
   - do:
       index:
         index: test
-        id: 2
+        id: "2"
         body: { "ip" : "192.168.0.1" }
 
   - do:
       index:
         index: test
-        id: 3
+        id: "3"
         body: { "ip" : "192.168.0.7" }
 
   - do:
@@ -278,19 +278,19 @@ setup:
   - do:
       index:
         index: test
-        id: 1
+        id: "1"
         body: { "date" : 1000 }
 
   - do:
       index:
         index: test
-        id: 2
+        id: "2"
         body: { "date" : 2000 }
 
   - do:
       index:
         index: test
-        id: 3
+        id: "3"
         body: { "date" : 3000 }
 
   - do:
@@ -320,31 +320,31 @@ setup:
   - do:
       index:
         index: test
-        id: 1
+        id: "1"
         body: { "date" : "28800000000" }
 
   - do:
       index:
         index: test
-        id: 2
+        id: "2"
         body: { "date" : "315561600000" }
 
   - do:
       index:
         index: test
-        id: 3
+        id: "3"
         body: { "date" : "631180800000" }
 
   - do:
       index:
         index: test
-        id: 4
+        id: "4"
         body: { "date" : "10000" }
 
   - do:
         index:
           index: test
-          id: 5
+          id: "5"
           body: { "ip" : "192.168.0.1" }
 
   - do:

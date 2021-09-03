@@ -308,7 +308,7 @@
   - gte: { nodes.$node_id.http.current_open: 0 }
   - gte: { nodes.$node_id.http.total_opened: 1 }
   - is_true:  nodes.$node_id.http.clients
-  - gte: { nodes.$node_id.http.clients.0.id: 1 }
+  - gte: { nodes.$node_id.http.clients.0.id: "1" }
   - match: { nodes.$node_id.http.clients.0.agent: "/.*/" }
   - match: { nodes.$node_id.http.clients.0.local_address: "/.*/" }
   - match: { nodes.$node_id.http.clients.0.remote_address: "/.*/" }
