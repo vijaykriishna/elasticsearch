@@ -20,7 +20,7 @@ dependencies {
   api project(':libs:elasticsearch-grok')
   api project(':libs:elasticsearch-dissect')
   implementation "org.apache.httpcomponents:httpclient:${versions.httpclient}"
-  implementation "org.apache.httpcomponents:httpcore:${versions.httpcore}"
+  implementation "org.apache.httpcomponents.core5:httpcore5:${versions.httpcore}"
 }
 
 restResources {

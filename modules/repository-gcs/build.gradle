@@ -54,7 +54,7 @@ dependencies {
   api 'com.google.apis:google-api-services-storage:v1-rev20220705-2.0.0'
 
   testImplementation "org.apache.httpcomponents:httpclient:${versions.httpclient}"
-  testImplementation "org.apache.httpcomponents:httpcore:${versions.httpcore}"
+  testImplementation "org.apache.httpcomponents.core5:httpcore5:${versions.httpcore}"
 
   testImplementation project(':test:fixtures:gcs-fixture')
   yamlRestTestImplementation project(':test:fixtures:gcs-fixture')

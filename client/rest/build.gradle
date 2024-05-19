@@ -40,10 +40,9 @@ projectLicenses.set(['The Apache Software License, Version 2.0': 'http://www.apa
 licenseFile.set(rootProject.file('licenses/APACHE-LICENSE-2.0.txt'))
 
 dependencies {
-  api "org.apache.httpcomponents:httpclient:${versions.httpclient}"
-  api "org.apache.httpcomponents:httpcore:${versions.httpcore}"
-  api "org.apache.httpcomponents:httpasyncclient:${versions.httpasyncclient}"
-  api "org.apache.httpcomponents:httpcore-nio:${versions.httpcore}"
+  api "org.apache.httpcomponents.client5:httpclient5:${versions.httpasyncclient}"
+  api "org.apache.httpcomponents.core5:httpcore5:${versions.httpcore}"
+  api "org.apache.httpcomponents:httpcore-nio:${versions.httpcorenio}"
   api "commons-codec:commons-codec:${versions.commonscodec}"
   api "commons-logging:commons-logging:${versions.commonslogging}"
 

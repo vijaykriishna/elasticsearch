@@ -63,7 +63,7 @@ tasks.withType(ShadowJar) {
     exclude(dependency("commons-logging:commons-logging:.*"))
     exclude(dependency("commons-codec:commons-codec:.*"))
     exclude(dependency("org.apache.httpcomponents:httpclient:.*"))
-    exclude(dependency("org.apache.httpcomponents:httpcore:.*"))
+    exclude(dependency("org.apache.httpcomponents.core5:httpcore5:.*"))
     exclude(dependency("org.apache.logging.log4j:log4j-1.2-api:.*"))
     exclude(dependency("log4j:log4j:.*"))
     exclude(dependency("io.netty:.*:.*"))

@@ -18,12 +18,12 @@
  */
 package org.elasticsearch.client;
 
-import org.apache.http.client.methods.HttpDelete;
+import org.apache.hc.client5.http.classic.methods.HttpDelete;
 import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
 
 import java.net.URI;
 
-/**
+/**qu
  * Allows to send DELETE requests providing a body (not supported out of the box)
  */
 final class HttpDeleteWithEntity extends HttpEntityEnclosingRequestBase {

@@ -25,7 +25,7 @@ dependencies {
   api "com.microsoft.azure:azure-svc-mgmt-compute:${localVersions.azure}"
   api "com.microsoft.azure:azure-core:${localVersions.azure}"
   api "org.apache.httpcomponents:httpclient:${localVersions.httpclient}"
-  api "org.apache.httpcomponents:httpcore:${localVersions.httpcore}"
+  api "org.apache.httpcomponents.core5:httpcore5:${localVersions.httpcore}"
   api "commons-logging:commons-logging:${localVersions.commonslogging}"
   api "org.apache.logging.log4j:log4j-1.2-api:${localVersions.log4j}"
   api "commons-codec:commons-codec:${localVersions.commonscodec}"

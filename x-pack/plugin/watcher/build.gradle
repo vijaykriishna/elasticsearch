@@ -37,7 +37,7 @@ dependencies {
   api 'com.sun.mail:jakarta.mail:1.6.4'
   api 'com.sun.activation:jakarta.activation:1.2.1'
   compileOnly "org.apache.httpcomponents:httpclient:${versions.httpclient}"
-  compileOnly "org.apache.httpcomponents:httpcore:${versions.httpcore}"
+  compileOnly "org.apache.httpcomponents.core5:httpcore5:${versions.httpcore}"
 
   testImplementation 'org.subethamail:subethasmtp:3.1.7'
   // needed for subethasmtp, has @GuardedBy annotation
